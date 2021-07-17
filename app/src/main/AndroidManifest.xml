@@ -9,7 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab4">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.activity.Bai6"></activity>
+        <activity android:name=".activity.activity.Bai5" />
+        <activity android:name=".activity.activity.Bai4" />
+        <activity android:name=".activity.activity.Bai3" />
+        <activity android:name=".activity.activity.Bai2" />
+        <activity
+            android:name=".activity.activity.Bai1"
+            android:parentActivityName=".activity.activity.MainActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".activity.activity.MainActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

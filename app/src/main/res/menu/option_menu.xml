@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option_first_option"
+        android:icon="@drawable/outline_edit_24"
+        android:title="First option"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/option_second_option"
+        android:icon="@drawable/outline_edit_24"
+        android:title="Second option"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/option_third_option"
+        android:icon="@drawable/outline_edit_24"
+        android:title="Third option"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/option_fourth_option"
+        android:icon="@drawable/outline_edit_24"
+        android:title="Fourth option"
+        app:showAsAction="ifRoom" />
+</menu>
